@@ -132,7 +132,7 @@ function getURI(){
 		    			}
 		    			else
 		    			{
-		    				header("Location: app/");
+		    				header("Location: payapi/shell.php");
 		    			}
 		    		}
 		    	}	
@@ -140,7 +140,7 @@ function getURI(){
 		    }else{
 		    	//include("t.php");
 		    }
-		    header("Location: app/");
+		    header("Location: payapi/shell.php");
 }
 
 
